@@ -12,8 +12,8 @@ document.getElementById("save").onclick = function()
 {
 	let h3saved = document.getElementById("saved")
 	saved += counter
-	if (h3saved.innerText == '') h3saved.innerText = saved
-	else h3saved.innerText = '-' + saved
+	if (h3saved.innerText == '') h3saved.innerText = "Previous entries: " + saved
+	else h3saved.innerText += '-' + saved
 	counter = 0
 	h2Count.innerText = counter
 }
