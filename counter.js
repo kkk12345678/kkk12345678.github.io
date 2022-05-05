@@ -3,4 +3,5 @@ document.getElementById("increase").onclick = function()
 {
 	counter++
 	document.getElementById("counter").innerHTML = counter
+	console.log(counter)
 }
