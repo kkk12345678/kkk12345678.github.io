@@ -11,7 +11,7 @@ document.getElementById("increment").onclick = function()
 document.getElementById("save").onclick = function()
 {
 	let h3saved = document.getElementById("save").innerText
-	saved = += counter
+	saved += counter
 	if h3saved == '' h3saved.innertext = saved
 	else h3saved.innertext = '-' + saved
 	counter = 0
