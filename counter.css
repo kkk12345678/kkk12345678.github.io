@@ -8,10 +8,17 @@ h1 {
   font-size: 32px;
 }
 .button-container {
-   text-align: center;
+  text-align: center;
+  margin: 20px;
 }
 button {
   font-size: 20px;
   width: 200px;  
   height: 60px;  
+}
+#increment {
+  background-color: green;
+}
+#save {
+  background-color: red;
 }
