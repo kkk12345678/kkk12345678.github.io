@@ -12,7 +12,7 @@ document.getElementById("save").onclick = function()
 {
 	let h3saved = document.getElementById("save").innerText
 	saved += counter
-	if h3saved == '' h3saved.innerText = saved
+	if (h3saved == '') h3saved.innerText = saved
 	else h3saved.innertext = '-' + saved
 	counter = 0
 	h2Count.innerText = counter
