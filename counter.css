@@ -7,13 +7,11 @@ h1 {
 #counter {
   font-size: 32px;
 }
+.button-container {
+   text-align: center;
+}
 button {
   font-size: 20px;
-  padding: 15px 32px;
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
   width: 200px;  
-  height: 75px;  
-  position: fixed;
+  height: 60px;  
 }
